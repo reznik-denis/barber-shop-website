@@ -342,6 +342,11 @@
   font-size: 11px;
   line-height: 1.364;
   letter-spacing: 0.2em;
+
+  &:hover,
+  &:focus {
+    color: $orangeAccentColor;
+  }
 }
 
 .social-text-link:not(:last-child) {
